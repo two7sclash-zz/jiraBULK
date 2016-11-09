@@ -6,8 +6,8 @@ from jira import JIRA
 # Override this with the options parameter.
 
 jira = JIRA(
-    server = 'https://jira.cengage.com',
-    basic_auth = ('jfishwick', 'CodingHorror35')
+    server = 'https://jira.mysite.com',
+    basic_auth = ('asquare', 'CodingHorror35')
 )
 
 bulkFile = open('ids.csv')

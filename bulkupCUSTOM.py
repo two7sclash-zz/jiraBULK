@@ -7,7 +7,7 @@ from jira import JIRA
 
 jira = JIRA(
     server = 'https://jira.cengage.com',
-    basic_auth = ('jfishwick', 'NxuovgQ2R2')
+    basic_auth = ('asquare', 'NxuovgQ2R2')
 )
 
 bulkFile = open('custom.csv')

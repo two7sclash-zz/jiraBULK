@@ -6,8 +6,8 @@ from pprint import pprint
 # Override this with the options parameter.
 
 options = {
-    'server': 'http://jira.cengage.com/',
-    'basic_auth': ('jfishwick', 'BkinderthanUneed2B')
+    'server': 'http://jira.mysite.com/',
+    'basic_auth': ('asquare', 'BkinderthanUneed2B')
 }
 jira = JIRA(options)
 

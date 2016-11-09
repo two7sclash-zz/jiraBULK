@@ -8,8 +8,8 @@ import pdb
 # Override this with the options parameter.
 
 jira = JIRA(
-    server = 'https://jira.cengage.com',
-    basic_auth = ('jfishwick', 'Codinghorror36')
+    server = 'https://jira.mysite.com',
+    basic_auth = ('asquare', 'Codinghorror36')
 )
 
 bulkFile = open('subtasks.csv')
